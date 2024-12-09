@@ -1,0 +1,40 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "978-0743273565",
+        "publishYear": 1925,
+        "publisher": "Scribner",
+        "genre": "Fiction",
+        "rating": 4.5,
+        "price": 9.99,
+        "coverImage": "gatsby.jpg",
+        "description": "A story of decadence and excess...",
+        "pageCount": 180,
+        "language": "English",
+        "inStock": true
+      },
+      {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "978-0451524935",
+        "publishYear": 1949,
+        "publisher": "Signet Classic",
+        "genre": "Science Fiction",
+        "rating": 4.8,
+        "price": 12.99,
+        "coverImage": "1984.jpg",
+        "description": "A dystopian social science fiction novel...",
+        "pageCount": 328,
+        "language": "English",
+        "inStock": true
+      }
+    ],
+    "metadata": {
+      "lastUpdated": "2024-12-07",
+      "totalBooks": 2
+    }
+  }

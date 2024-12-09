@@ -1,0 +1,50 @@
+{
+    "intervals": [
+        "1",
+        "2",
+        "5",
+        "10"
+    ],
+    "apis": {
+        "bookSearch": {
+            "name": "Book Search",
+            "parameters": [
+                "title",
+                "author",
+                "genre"
+            ],
+            "responseAttributes": [
+                "Title",
+                "Author",
+                "Price",
+                "In Stock",
+                "Rating"
+            ]
+        },
+        "authorBooks": {
+            "name": "Author's Books",
+            "parameters": [
+                "name"
+            ],
+            "responseAttributes": [
+                "Title",
+                "Genre",
+                "Price",
+                "In Stock"
+            ]
+        },
+        "stockCheck": {
+            "name": "Stock Check",
+            "parameters": [
+                "title",
+                "author"
+            ],
+            "responseAttributes": [
+                "Title",
+                "In Stock",
+                "Quantity",
+                "Price"
+            ]
+        }
+    }
+}

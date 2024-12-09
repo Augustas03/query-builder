@@ -1,5 +1,4 @@
-// components/__tests__/AddQuery.test.js
-import { render, screen, fireEvent } from '@testing-library/react';
+import {render, screen} from '@testing-library/react';
 import AddQuery from '../addQuery';
 import userEvent from '@testing-library/user-event';
 

@@ -15,7 +15,7 @@ const QueryList = ({ queries, onRemove, onResultUpdate }) => {
 
   const executeQuery = async (query) => {
     try {
-      // Pass the entire query object as is
+      // Pass the entire query object
       console.log(query);
       const result = await bookService.executeQuery(query);
       onResultUpdate(query.queryName, result);

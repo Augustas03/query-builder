@@ -1,4 +1,3 @@
-// components/__tests__/QueryList.test.js
 import { render, screen, act } from '@testing-library/react';
 import QueryList from '../QueryList';
 import { bookService } from '../../services/api/bookService';
